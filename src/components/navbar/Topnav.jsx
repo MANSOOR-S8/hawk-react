@@ -14,19 +14,19 @@ function TopNav() {
         </div>
 
         {/* Search Bar */}
-        <div className="flex w-full max-w-2xl mx-6 rounded-full overflow-hidden shadow-sm">
+        <div className="flex w-full mx-4 md:mx-6 rounded-full overflow-hidden shadow-sm max-w-full md:max-w-2xl">
           <input
             type="text"
             placeholder="Search for products"
-            className="flex-1 px-4 py-2 bg-white text-black focus:outline-none"
+            className="flex-1 px-3 py-2 bg-white text-black text-sm focus:outline-none min-w-0"
           />
-          <select className="px-4 py-2 border-l text-black bg-white text-sm focus:outline-none">
+          <select className="px-1 py-1 bg-white text-black text-sm  focus:outline-none border-l shrink-0">
             <option>Select Category</option>
             <option>Gloves</option>
             <option>Belts</option>
             <option>Accessories</option>
           </select>
-          <button className="bg-[#f7a900] cursor-pointer px-4 text-white">
+          <button className="bg-[#f7a900] px-4 py-2 text-white text-sm shrink-0">
             <FaSearch />
           </button>
         </div>

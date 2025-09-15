@@ -15,6 +15,7 @@ function App() {
         <Router>
           <Nav />
           <Routes>
+            <Route path="/" element={<SportsBall />} />
             <Route
               path="/components/SportsBall/SportsBall"
               element={<SportsBall />}
