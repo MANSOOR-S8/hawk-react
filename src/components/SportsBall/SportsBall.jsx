@@ -10,9 +10,6 @@ function SportsBall() {
       <div>
         <Carousel />
       </div>
-      <div className="text-2xl mt-4 ml-4">
-        <h1>TOP CATEGORIES</h1>
-      </div>
 
       <div className="mt-6">
         <Cards />

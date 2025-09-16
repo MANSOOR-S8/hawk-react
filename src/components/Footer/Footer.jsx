@@ -66,7 +66,7 @@ function Footer() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 pb-10 border-b border-gray-500">
           {/* Column 1: Company Info */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-white">Hawk</h3>
@@ -171,6 +171,17 @@ function Footer() {
               </p>
               <p>Phone: (123) 456-7890</p>
             </div>
+          </div>
+        </div>
+
+        {/* payment sec */}
+        <div className="space-y-4 mt-7">
+          <h3 className="text-xl  text-white">Payment System:</h3>
+          <div className="text-sm space-y-2">
+            <img
+              src="https://hawk-sports.com/wp-content/uploads/2021/09/payments.png"
+              alt=""
+            />
           </div>
         </div>
 
