@@ -49,7 +49,7 @@ function Nav() {
                   <option>Select Category</option>
                   <option>Gloves</option>
                   <option>Belts</option>
-                  <option>Accessories</option>
+                  <option>Accessories </option>
                 </select>
                 <button className="bg-[#f7a900] px-4 py-2 text-white text-sm shrink-0">
                   <FaSearch />
