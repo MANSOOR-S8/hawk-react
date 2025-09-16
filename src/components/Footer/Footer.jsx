@@ -73,7 +73,7 @@ function Footer() {
             <p className="text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
               risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing
-              nec, ultricies sed, dolor.
+              nec, ultricies sed, dolor a.
             </p>
           </div>
 
