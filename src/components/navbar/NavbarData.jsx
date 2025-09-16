@@ -1,42 +1,42 @@
 const NavbarData = [
   {
     title: "SportsBall",
-    href: "./components/SportsBall/SportsBall ",
+    href: "/SportsBall ",
     submenu: [
-      { title: "Hockey", href: "././components/Hockey/Hockey " },
-      { title: "Hockey", href: "./components/Hockey/Hockey" },
+      { title: "Hockey", href: "/Hockey " },
+      { title: "Hockey", href: "/Hockey" },
     ],
   },
   {
     title: "Hockey",
-    href: "./components/Hockey/Hockey",
+    href: "/Hockey",
     submenu: [
-      { title: "Hockey", href: "././components/Hockey/Hockey " },
-      { title: "Hockey", href: "./components/Hockey/Hockey" },
+      { title: "Hockey", href: "/Hockey " },
+      { title: "Hockey", href: "/Hockey" },
     ],
   },
   {
     title: "Martial Arts",
-    href: "./components/MartialArt/MartialArt",
+    href: "/MartialArt",
     submenu: [
-      { title: "Hockey", href: "././components/Hockey/Hockey " },
-      { title: "Hockey", href: "./components/Hockey/Hockey" },
+      { title: "Hockey", href: "/Hockey " },
+      { title: "Hockey", href: "/Hockey" },
     ],
   },
   {
     title: "Boxing",
-    href: "./components/Boxing/Boxing",
+    href: "/Boxing",
     submenu: [
-      { title: "Hockey", href: "././components/Hockey/Hockey " },
-      { title: "Hockey", href: "./components/Hockey/Hockey" },
+      { title: "Hockey", href: "/Hockey/Hockey " },
+      { title: "Hockey", href: "/Hockey" },
     ],
   },
   {
     title: "MotorBike",
-    href: "./components/Motorbike/MotorBike",
+    href: "/MotorBike",
     submenu: [
-      { title: "Hockey", href: "././components/Hockey/Hockey " },
-      { title: "Hockey", href: "./components/Hockey/Hockey" },
+      { title: "Hockey", href: "/Hockey " },
+      { title: "Hockey", href: "/Hockey" },
     ],
   },
 ];
